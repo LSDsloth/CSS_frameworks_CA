@@ -1,3 +1,26 @@
 nav {
-  background-color: rgba(17, 221, 17, 0.8666666667);
+  height: 100px;
+  width: 100%;
+  background-color: #181a1c;
+}
+
+nav a {
+  color: #ddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #0d0d0d;
+  color: #ddd;
+}
+
+.col {
+  width: 200px;
+  height: 200px;
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */

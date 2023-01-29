@@ -1,7 +1,19 @@
-$background-color: #111111;
-$secondary-background-color: #242526;
-$primary-color: #1d1d;
+@import "nav";
+@import "variables";
 
-nav {
-  background-color: $primary-color;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $primary-background-color;
+  color: $primary-text-color;
+}
+
+.col {
+  width: 200px;
+  height: 200px;
+  font-size: 2rem;
 }
